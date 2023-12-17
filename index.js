@@ -4,7 +4,8 @@ const { signs } = require("./options");
 const { predictions } = require("./predictions.json");
 const { stickers } = require("./stickers.json");
 const { compliments } = require("./compliments.json");
-const token = process.env.TOKEN;
+// const token = process.env.TOKEN;
+const token = "6369976594:AAG2bk6i2rLLHAjC4hS1E7-jbwf1wuc1n8U";
 
 const bot = new TelegramApi(token, { polling: true });
 
